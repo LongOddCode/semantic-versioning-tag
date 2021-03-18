@@ -1,0 +1,17 @@
+name: "semantic-versioning-tag"
+description: "help to process a tag if it follow the semantic versionning pattern."
+
+outputs:
+    major:
+        description: major version
+    minor:
+        description: minor version
+    patch:
+        description: patch version
+    prerelease:
+        description: pre-release data
+    buildmetadata:
+        description: build meta data
+runs:
+    using: "node12"
+    main: "index.js"

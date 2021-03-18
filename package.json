@@ -1,0 +1,29 @@
+{
+    "name": "semantic-versioning-tag",
+    "version": "1.0.0",
+    "description": "help to process a tag if it follow the semantic versionning pattern.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LongOddCode/semantic-versioning-tag.git"
+    },
+    "keywords": [
+        "github",
+        "action",
+        "tag",
+        "semantic version"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LongOddCode/semantic-versioning-tag/issues"
+    },
+    "homepage": "https://github.com/LongOddCode/semantic-versioning-tag#readme",
+    "dependencies": {
+        "@actions/core": "^1.2.6",
+        "@actions/github": "^4.0.0"
+    }
+}
