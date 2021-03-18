@@ -1,6 +1,9 @@
 name: "semantic-versioning-tag"
 description: "help to process a tag if it follow the semantic versionning pattern."
-icon: tag
+
+branding:
+    icon: "tag"
+    color: "white"
 
 outputs:
     major:
