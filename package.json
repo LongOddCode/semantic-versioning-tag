@@ -2,7 +2,7 @@
     "name": "semantic-versioning-tag",
     "version": "1.0.0",
     "description": "help to process a tag if it follow the semantic versionning pattern.",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
